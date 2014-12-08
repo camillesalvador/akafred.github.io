@@ -19,7 +19,7 @@ There are drawbacks to using static site generators, too, we'll get back to thos
 
 Another great thing about jekyll, is that it is what Github uses for its User, Project and Organization pages, so if you can leave it to them to do both page generation and serve the pages - if you want to.
 
-[kdoemaker]: http://www.kodemaker.no/
+[kodemaker]: http://www.kodemaker.no/
 [ssg]:    https://staticsitegenerators.net/
 [jekyll]: http://jekyllrb.com
 [tpw]:    http://tom.preston-werner.com/
