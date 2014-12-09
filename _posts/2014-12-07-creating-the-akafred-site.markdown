@@ -2,6 +2,7 @@
 layout: post
 title:  "Creating the akafred blog site"
 date:   2014-12-07 12:00:00
+update: 2014-12-09 09:00:00
 categories: static-site-generation jekyll docker
 ---
 _Aller anfang ist schwer_ my German teacher told us, and oh my! does that apply to blogging when you are a techie, who—in theory at least—could have *built* a blogging platform _if you just had the time_. It does not help that you have [extremely capable colleagues][kodemaker] who probably have done just that. Obviously the abandoned WordPress-blog from yesteryear does not cut it anymore ...
@@ -19,6 +20,8 @@ There are drawbacks to using static site generators, too, we'll get back to thos
 
 Another great thing about jekyll, is that it is what Github uses for its User, Project and Organization pages, so if you can leave it to them to do both page generation and serve the pages - if you want to.
 
+Setting up your own [Github Pages][pages] site is easy, and when you've [generated a Jekyll site][jekyll] locally you can just push it to your Pages repo. If you want a custom domain name (not *.github.io) there are just [a few small things you have to do with your DNS provider][CNAME-record], and [add a file to your repo][CNAME-file].
+
 [kodemaker]: http://www.kodemaker.no/
 [ssg]:    https://staticsitegenerators.net/
 [jekyll]: http://jekyllrb.com
@@ -26,3 +29,6 @@ Another great thing about jekyll, is that it is what Github uses for its User, P
 [jekyll-stats]: https://github.com/jekyll/jekyll/graphs/contributors
 [docker]: https://docs.docker.com/
 [grahamc_jekyll]: https://registry.hub.docker.com/u/grahamc/jekyll/
+[pages]: https://pages.github.com/
+[CNAME-file]: https://help.github.com/articles/adding-a-cname-file-to-your-repository/
+[subdomain]: https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/
