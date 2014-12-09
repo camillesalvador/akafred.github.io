@@ -31,4 +31,4 @@ Setting up your own [Github Pages][pages] site is easy, and when you've [generat
 [grahamc_jekyll]: https://registry.hub.docker.com/u/grahamc/jekyll/
 [pages]: https://pages.github.com/
 [CNAME-file]: https://help.github.com/articles/adding-a-cname-file-to-your-repository/
-[subdomain]: https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/
+[CNAME-record]: https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/
