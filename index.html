@@ -9,11 +9,12 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.update %} • <em>Updated: {{ post.update | date: "%b %-d, %Y" }}</em>{% endif %}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        {% if post.dek %}<em><a href="{{ post.url | prepend: site.baseurl }}">{{post.dek}}</a></em>{% endif %}
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.update %} • <em>Updated: {{ post.update | date: "%b %-d, %Y" }}</em>{% endif %}</p>
+        {% if post.lede %}<p><a href="{{ post.url | prepend: site.baseurl }}">{{post.lede}}</a></p>{% endif %}
       </li>
     {% endfor %}
   </ul>
