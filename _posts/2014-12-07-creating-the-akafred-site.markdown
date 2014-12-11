@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Creating the akafred blog site"
+dek:    "Static blog site generation with Jekyll and Github Pages" 
+lede:   "Using a static site generation tool for your blog makes your blog performant and secure. And using Docker helps you get started quickly."
 date:   2014-12-07 12:00:00
 update: 2014-12-09 10:10:00
 categories: static-site-generation jekyll docker

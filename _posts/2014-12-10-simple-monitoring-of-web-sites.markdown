@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Simple monitoring of web sites"
+dek:    "Uptime monitoring using UptimeRobot – in 60 mins or less" 
+lede:   "If you haven't got uptime monitoring on your site, there really is no excuse as you can set up something with minimal effort and free of charge."
 date:   2014-12-10 23:00:00
 categories: devops monitoring
 ---
