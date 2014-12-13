@@ -8,5 +8,6 @@ url: "http://www.akafred.com" # the base hostname & protocol for your site
 twitter_username: akafred
 github_username:  akafred
 
+permalink: /:year/:month/:title/
 # Build settings
 markdown: kramdown
