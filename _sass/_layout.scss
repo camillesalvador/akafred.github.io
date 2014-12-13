@@ -176,6 +176,11 @@
     > li {
         margin-bottom: $spacing-unit;
     }
+
+    > li > h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0;
+    }
+
 }
 
 .post-meta {
@@ -207,8 +212,20 @@
     }
 }
 
+.post-dek {
+    font-size: $small-font-size;
+}
+
+.post-lede {
+
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
+
+    .post-lede {
+        font-style: italic;
+    }
 
     h2 {
         font-size: 32px;
