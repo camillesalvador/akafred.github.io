@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Creating the akafred blog site"
-dek:    "Static blog site generation with Jekyll and Github Pages" 
-lede:   "Using a static site generation tool for your blog makes your blog performant and secure. And using Docker helps you get started quickly."
+dek:    "Static site generation with Jekyll and Github Pages" 
+lede:   "Using a static site generation tool for your blog makes your blog performant and secure. Using Docker helps you get started quickly."
 date:   2014-12-07 12:00:00
 update: 2014-12-09 10:10:00
-categories: static-site-generation jekyll docker
+categories: static-site-generation jekyll docker blogging
 ---
 _Aller anfang ist schwer_ my German teacher told us, and oh my! does that apply to blogging when you are a techie, who—in theory at least—could have *built* a blogging platform _if you just had the time_. It does not help that you have [extremely capable colleagues][kodemaker] who probably have done just that. Obviously the abandoned WordPress-blog from yesteryear does not cut it anymore ...
 

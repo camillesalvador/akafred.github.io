@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple monitoring of web sites"
-dek:    "Uptime monitoring using UptimeRobot – in 60 mins or less" 
+dek:    "Uptime monitoring using UptimeRobot – in under 60 mins" 
 lede:   "If you haven't got uptime monitoring on your site, there really is no excuse as you can set up something with minimal effort and free of charge."
 date:   2014-12-10 23:00:00
 categories: devops monitoring
@@ -25,7 +25,7 @@ UptimeRobot gives you _four types of monitors_:
 * *Ping* - checks for response from ICMP ping
 * *Port* - which we guess checks if it can create a TCP-connection to a specific port on a host
 
-It is worth noting that UptimeRobot's primary servers are in Dallas, TX so for a primarily local service in Oslo, Norway, the response times are somewhat high and there is a lot of network infrastructure between them and us that might cause "false positives". Also one should make sure the monitoring traffic doesn't skew web stats (especially the Keyword monitor can possibly affect stats).
+It is worth noting that UptimeRobot's primary servers are in Dallas, TX, so for a primarily local service in Oslo, Norway, the response times are somewhat high and there is a lot of network infrastructure between them and us that might cause "false positives". Also one should make sure the monitoring traffic doesn't skew web stats (especially the Keyword monitor can possibly affect stats).
 
 UptimeRobot checks every 5 to 120 minutes (configurable).
 
