@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker daemon crash"
 dek:    "Are you prepared for all your containers to insta-crash?" 
-lede:   "There is a lot of interest in around Docker these days, but while adding a layer of indirection solves some problems there are also risks."
+lede:   "There is a lot of interest in the Docker containerization technology these days, but while adding a layer of indirection solves some problems there are also risks."
 date:   2014-12-08 23:00:00
 update: 2014-12-09 09:00:00
 categories: docker devops spof
