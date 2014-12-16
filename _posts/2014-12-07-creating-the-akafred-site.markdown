@@ -4,8 +4,8 @@ title:  "Creating the akafred blog site"
 dek:    "Static site generation with Jekyll and Github Pages" 
 lede:   "Using a static site generation tool for your blog makes your blog performant and secure. Using Docker helps you get started quickly."
 date:   2014-12-07 12:00:00
-update: 2014-12-09 10:10:00
-categories: static-site-generation jekyll docker blogging
+update: 2014-12-16 20:00:00
+categories: static-site-generation jekyll docker blogging clicky disqus
 ---
 _Aller anfang ist schwer_ my German teacher told us, and oh my! does that apply to blogging when you are a techie, who—in theory at least—could have *built* a blogging platform _if you just had the time_. It does not help that you have [extremely capable colleagues][kodemaker] who probably have done just that. Obviously the abandoned WordPress-blog from yesteryear does not cut it anymore ...
 
@@ -20,13 +20,15 @@ Static site generators have a some very nice characteristics:
 
 While static site generators demand very little from your web server you still need infrastructure to run your generator, and sometimes that may be non-trivial to set up. I love [Docker][docker] and isolating the generator using containerization is a really sweet idea. The presence of a [Docker image with Jekyll][grahamc_jekyll] made choosing Jekyll even easier. 
 
-There are drawbacks to using static site generators, too, we'll get back to those in later posts.
-
 Another great thing about Jekyll, is that it is what Github uses for its User, Project and Organization pages, so if you can leave it to them to do both page generation and serve the pages - if you want to.
 
 Setting up your own [Github Pages][pages] site is easy, and when you've [generated a Jekyll site][jekyll] locally you can just push it to your Pages repo. If you want a custom domain name (not *.github.io) there are just [a few small things you have to do with your DNS provider][CNAME-record], and [add a file to your repo][CNAME-file].
 
-Basically that is what I did and you'll find [the git repo backing this site on Github][akafred-github-io].
+One nice benefit of using Github Pages is that you get to use Github's CDN solution, which makes your web page snappier around the world than if you just put your page on some host. (I know this is not a perfect test for this, but you can use a service like [24x7 to check ping][2nx7ping] from dozens of places around the world, to get a feel for network roundtrip times.)
+
+One of the chief drawbacks of a static site is that there is nowhere to put discussions and feedback, and when using Github Pages no server statistics you can analyze. This was easy to solve adequately for my use; I've added [Clicky][clicky] for webstats and [Disqus][disqus] for discussions. I've also been careful to add their async JavaScripts so their impact on page loading is kept pretty minimal.
+
+You'll find [the git repo backing this site on Github][akafred-github-io], where you will see things like how easy it is to [add Clicky][clicky-commit] or [Disqus][disqus-commit] after you have signed up on their sites.
 
 [kodemaker]: http://www.kodemaker.no/
 [ssg]:    https://staticsitegenerators.net/
@@ -40,3 +42,8 @@ Basically that is what I did and you'll find [the git repo backing this site on 
 [CNAME-record]: https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/
 [6-static-blog-generators-arent-jekyll]: http://www.sitepoint.com/6-static-blog-generators-arent-jekyll/
 [akafred-github-io]: http://github.com/akafred/akafred.github.io
+[2nx7ping]: https://www.site24x7.com/ping-test.html
+[clicky]: https://clicky.com/
+[disqus]: https://disqus.com/
+[clicky-commit]: https://github.com/akafred/akafred.github.io/commit/9d01a6f3b8bf66ef6ab356ec1aa82b944bac69c0
+[disqus-commit]: https://github.com/akafred/akafred.github.io/commit/8e4e05e7a048c0ac150360fdcf4a233ad81889ca
