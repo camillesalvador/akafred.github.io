@@ -30,6 +30,21 @@ One of the chief drawbacks of a static site is that there is nowhere to put disc
 
 You'll find [the git repo backing this site on Github][akafred-github-io], where you will see things like how easy it is to [add Clicky][clicky-commit] or [Disqus][disqus-commit] after you have signed up on their sites.
 
+### Twitter feedback
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/akafred">@akafred</a> Do I have to :P Disqus is .. well .. not my favourite (I rewrote this with nicer words three times).</p>&mdash; Denis Braekhus (@denisb) <a href="https://twitter.com/denisb/status/545302476103356417">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/denisb">@denisb</a> Interesting! I have a post where I mention Disqus - is using Disqus to diss Disqus something we can discuss? <a href="http://t.co/MxkKTRI0rJ">http://t.co/MxkKTRI0rJ</a></p>&mdash; a.k.a Fred :-) (@akafred) <a href="https://twitter.com/akafred/status/545316168924659712">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/akafred">@akafred</a> Well, I’d much rather diskuss it on twitter tbh. It’s bad on so many levels. Security, tracking, slowness..</p>&mdash; Denis Braekhus (@denisb) <a href="https://twitter.com/denisb/status/545317629171601408">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/denisb">@denisb</a> I have disabled &#39;anonymous cookie tracking&#39;, and it loads async so doesn&#39;t affect page load much. Security? Alternatives to Disqus?</p>&mdash; a.k.a Fred :-) (@akafred) <a href="https://twitter.com/akafred/status/545329790593798144">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/akafred">@akafred</a> Spotty track record in fixing bugs, misfeatures that enable stalkers and harassers and not protecting identities.</p>&mdash; Denis Braekhus (@denisb) <a href="https://twitter.com/denisb/status/545330967398088706">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/akafred">@akafred</a> Alternatives: discussions on twitter! ;-)</p>&mdash; Denis Braekhus (@denisb) <a href="https://twitter.com/denisb/status/545331024587390976">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/akafred">@akafred</a> Admittedly not much of this applies to your blog, but it’s wider problems with the company, and I’d rather not give them my ID.</p>&mdash; Denis Braekhus (@denisb) <a href="https://twitter.com/denisb/status/545331269023064065">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/denisb">@denisb</a> You don’t have to give an ID :-) You can use pron mode, Tor and post as guest :)</p>&mdash; a.k.a Fred :-) (@akafred) <a href="https://twitter.com/akafred/status/545333335745372161">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/akafred">@akafred</a> Duh, you’re destroying my arguments with boring facts.</p>&mdash; Denis Braekhus (@denisb) <a href="https://twitter.com/denisb/status/545333561487003648">December 17, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/denisb">@denisb</a> I know. Hate it when people do that.</p>&mdash; a.k.a Fred :-) (@akafred) <a href="https://twitter.com/akafred/status/545333760070541312">December 17, 2014</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 [kodemaker]: http://www.kodemaker.no/
 [ssg]:    https://staticsitegenerators.net/
 [jekyll]: http://jekyllrb.com

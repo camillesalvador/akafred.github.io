@@ -48,5 +48,10 @@ UptimeRobot is a free service and if they fail or go down you haven't paid them 
 
 We spent about 45 minutes this morning configuring the first 5-6 monitors (one of each type) and setting up a couple of notification channels (email, Slack). We knew that there would be some planned service interuptions this evening so we have already got some results. Tomorrow we will have to correlate the notifications with the actual disruptions. One thing we have already seen is that at one or two monitors didn't switch back to UP when the service came back up. Cycling the monitor (PAUSE - START) brought it back to UP. Annoying, but not as important as not getting DOWN-notifications if a service goes down.
 
+### Twitter feedback
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/akafred">@akafred</a> Pingdoms free plan is worth checking out too for small sites. Geo distributed.</p>&mdash; Denis Braekhus (@denisb) <a href="https://twitter.com/denisb/status/545172124064026625">December 17, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 [free-uptime-monitoring-services]: http://blog.woorank.com/2014/05/50-free-uptime-monitoring-services/
 [uptimerobot]: http://uptimerobot.com/
