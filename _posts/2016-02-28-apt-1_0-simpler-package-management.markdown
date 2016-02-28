@@ -20,6 +20,6 @@ So let's get to the good stuff, here are the new `apt`-commands you need the mos
 * `apt update` -- update package index files from sources (e.g after `apt edit-sources`)
 * `apt upgrade` -- upgrade all installed packages to their latest versions
 * `apt full-upgrade` -- do a smart upgrade of packages, taking dependencies into account (might remove dependencies)
-* `apt remove <pkg> -- remove package (but not configuration files), e.g `apt remove apt-doc`
+* `apt remove <pkg>` -- remove package (but not configuration files), e.g `apt remove apt-doc`
 
 Happy apt-ing!
