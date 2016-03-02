@@ -105,11 +105,11 @@ Now that my server is fairly secure I can take a few days to ponder my next step
 [Vagrant]: https://www.vagrantup.com/docs/
 [Homebrew]: http://brew.sh/
 [original-Vagrantfile]: https://github.com/akafred/formasjon/blob/5d5184bb1ea7ab98cc54f086cc0f10344f10627e/provision/Vagrantfile
-[a167acdadf64221c8798ed04caf7080a36b14e97]: https://github.com/akafred/formasjon/a167acdadf64221c8798ed04caf7080a36b14e97
+[a167acdadf64221c8798ed04caf7080a36b14e97]: https://github.com/akafred/formasjon/commit/a167acdadf64221c8798ed04caf7080a36b14e97
 [vault]: http://docs.ansible.com/ansible/playbooks_vault.html
-[870f6e4f0ff3d02596a6ebd3863160d85fa071ef]: https://github.com/akafred/formasjon/870f6e4f0ff3d02596a6ebd3863160d85fa071ef
-[f779568609cf11df5e04652d135bc73bb44d5b87]: https://github.com/akafred/formasjon/f779568609cf11df5e04652d135bc73bb44d5b87
-[c2ea61179bfc1240d319437aa4a9b21fb9230c28]: https://github.com/akafred/formasjon/c2ea61179bfc1240d319437aa4a9b21fb9230c28
+[870f6e4f0ff3d02596a6ebd3863160d85fa071ef]: https://github.com/akafred/formasjon/commit/870f6e4f0ff3d02596a6ebd3863160d85fa071ef
+[f779568609cf11df5e04652d135bc73bb44d5b87]: https://github.com/akafred/formasjon/commit/f779568609cf11df5e04652d135bc73bb44d5b87
+[c2ea61179bfc1240d319437aa4a9b21fb9230c28]: https://github.com/akafred/formasjon/commit/c2ea61179bfc1240d319437aa4a9b21fb9230c28
 [ufw]: https://wiki.debian.org/Uncomplicated%20Firewall%20(ufw)
 [ufw-module]: https://docs.ansible.com/ansible/ufw_module.html
 [firewall-tasks]: https://github.com/akafred/formasjon/blob/427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c/provision/roles/firewalled/tasks/main.yml
@@ -117,7 +117,7 @@ Now that my server is fairly secure I can take a few days to ponder my next step
 [dev-fail2ban]: https://github.com/akafred/formasjon/blob/427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c/provision/dev
 [staging-fail2ban]: https://github.com/akafred/formasjon/blob/427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c/provision/staging
 [prod-fail2ban]: https://github.com/akafred/formasjon/blob/427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c/provision/prod
-[427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c]: https://github.com/akafred/formasjon/427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c
+[427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c]: https://github.com/akafred/formasjon/commit/427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c
 [fail2ban]: http://www.fail2ban.org
 [fail2ban-role]: https://galaxy.ansible.com/nickjj/fail2ban/
 [denyhosts-abandonware]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=732712
