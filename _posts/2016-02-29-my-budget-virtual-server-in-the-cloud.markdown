@@ -91,6 +91,8 @@ Also, to limit the chance of brute-forcing password-based SSH-users I added [fai
 
 The whole firewall/fail2ban-setup is in [this commit][427ffe0e97fed5c49431e40cd6bd5d1f15d9c94c].
 
+The final git state can be found on the tag [blog-2016-03-02][blog-2016-03-02].
+
 Btw … any [server with ssh is continually being attacked][livesshattack] so you should make sure your servers are secure.
 
 Now that my server is fairly secure I can take a few days to ponder my next steps for my VPS. Perhaps OpenVPN? Suggestions?
@@ -122,5 +124,5 @@ Now that my server is fairly secure I can take a few days to ponder my next step
 [fail2ban-role]: https://galaxy.ansible.com/nickjj/fail2ban/
 [denyhosts-abandonware]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=732712
 [galaxy]: https://galaxy.ansible.com/
+[blog-2016-03-02]: https://github.com/akafred/formasjon/tree/blog-2016-03-02
 [livesshattack]: https://livesshattack.net/
-
