@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting better with git (lessons 1-5)"
+title:  "Getting better at git (lessons 1-5)"
 dek:    "Learning git using great stuff on the web" 
 lede:   "Is git occasionally (or often) a mystery to you? - You are not alone! I have pulled in a few hand picked resources, in this post you get the first few bite-sized lessons."
 date:   2016-05-29 21:00:00
@@ -94,7 +94,7 @@ There are many "cheat sheets" to help you find the more popular git commands. Ch
 
 I have included links to a few different ones below.
 
-[GitHub Git Cheat Sheet - (read: 10 mins) https://training.github.com/kit/downloads/github-git-cheat-sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet)
+[GitHub Git Cheat Sheet - (read: 10 mins) https://services.github.com/resources/](https://services.github.com/resources/)
 
 [Git Data Transport Commands - (study: 5 mins) http://assets.osteele.com/images/2008/git-transport.png](http://assets.osteele.com/images/2008/git-transport.png)
 
