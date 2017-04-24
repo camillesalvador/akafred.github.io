@@ -6,7 +6,7 @@ lede:   "If you're a Debian (or Ubuntu) Linux user you can probably use the simp
 date:   2016-02-28 08:00:00
 categories: linux devops package-management debian ubuntu
 ---
-Managing installed packages is a core *nix-user skill. If you use Debian (or a Debian-derived Linux distro like Ubuntu) on servers you are probably familiar with `apt-get`, `apt-cache` and `dpkg`; or perhaps you have given in and turned to the text-ui of `aptitude`. APT, a tool that was originally released in 1998(!), got to version 1.0 in 2014(!!) and with the 1.0 release came a set of simpler commands for managing packages.
+Managing installed packages is a core \*nix-user skill. If you use Debian (or a Debian-derived Linux distro like Ubuntu) on servers you are probably familiar with `apt-get`, `apt-cache` and `dpkg`; or perhaps you have given in and turned to the text-ui of `aptitude`. APT, a tool that was originally released in 1998(!), got to version 1.0 in 2014(!!) and with the 1.0 release came a set of simpler commands for managing packages.
 
 While it takes a little while for new versions of software to update in distros, it seems like it takes a lot longer for obsolete guides to APT to be pushed out of the top spots in the search engines. Of course you can still use the lower level tools (`apt-get`, `apt-cache` or even `dpkg`), but `apt` is probably easier in most cases.
 

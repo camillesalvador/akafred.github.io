@@ -22,7 +22,7 @@ While static site generators demand very little from your web server you still n
 
 Another great thing about Jekyll, is that it is what Github uses for its User, Project and Organization pages, so if you can leave it to them to do both page generation and serve the pages - if you want to.
 
-Setting up your own [Github Pages][pages] site is easy, and when you've [generated a Jekyll site][jekyll] locally you can just push it to your Pages repo. If you want a custom domain name (not *.github.io) there are just [a few small things you have to do with your DNS provider][CNAME-record], and [add a file to your repo][CNAME-file].
+Setting up your own [Github Pages][pages] site is easy, and when you've [generated a Jekyll site][jekyll] locally you can just push it to your Pages repo. If you want a custom domain name (not \*.github.io) there are just [a few small things you have to do with your DNS provider][CNAME-record], and [add a file to your repo][CNAME-file].
 
 One nice benefit of using Github Pages is that you get to use Github's CDN solution, which makes your web page snappier around the world than if you just put your page on some host. (I know this is not a perfect test for this, but you can use a service like [24x7 to check ping][2nx7ping] from dozens of places around the world, to get a feel for network roundtrip times.)
 
