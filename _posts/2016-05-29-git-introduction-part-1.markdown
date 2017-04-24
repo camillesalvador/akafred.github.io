@@ -1,18 +1,18 @@
 ---
 layout: post
 title:  "Getting better at git (lessons 1-5)"
-dek:    "Learning git using great stuff on the web" 
+dek:    "Learning git using great stuff on the web"
 lede:   "Is git occasionally (or often) a mystery to you? - You are not alone! I have pulled in a few hand picked resources, in this post you get the first few bite-sized lessons."
 date:   2016-05-29 21:00:00
-categories: git dvcs 
+categories: git dvcs
 ---
 A client adopted git fairly recently and not everyone there knew distributed version control all that well. To bring them up to speed I created a set of small "lessons" pointing to good resources. After a few lessons I promise that you will have fewer git-induced headaches. 
 
-Each lesson typically contains a link to a video, a blog post, or something similar. There will be content for all levels, both beginners and those more experienced. I even think the odd expert might find a tip or two. 
+Each lesson typically contains a link to a video, a blog post, or something similar. There will be content for all levels, both beginners and those more experienced. I even think the odd expert might find a tip or two.
 
 ## Lesson 1 - What is git?
 
-First lesson is very basic (but short) and if you have used git more than a little you can skip this, but stick around for lesson 2. 
+First lesson is very basic (but short) and if you have used git more than a little you can skip this, but stick around for lesson 2.
 
 The video is by Matthew McCullough from GitHub.
 
@@ -46,7 +46,7 @@ The video takes about 45 minsutes to watch, and more to digest. If you find the 
 
 ## Lesson 3 - RTFM
 
-A slightly provocative title (with a touch of 1337; RTFM = Read the f *** ing manual!). 
+A slightly provocative title (with a touch of 1337; RTFM = Read the f *** ing manual!).
 
 But sometimes that can be a great tip. In git's case is manual is fairly well-written. I have opted to show you a manual page that isn't too action-packed, let still has a few surprises: `git add`
 
@@ -68,7 +68,7 @@ Here are some arguments (to `git add`), ordered by how important *I* think they 
 
 ## Lesson 4 - Git from the Bottom Up
 
-There are several open source books on git. The best known is probably Pro Git, which you can [download as an eBook or read online](http://git-scm.com/book/en/v2). 
+There are several open source books on git. The best known is probably Pro Git, which you can [download as an eBook or read online](http://git-scm.com/book/en/v2).
 
 However, for this lesson you only need to read the introduction from another open source book on git: _Git from the Bottom Up_. The first page contains definitions of the key terms you should know to read all other git documentation. Since we have already dug quite a bit deeper than this I suggest you use this as a checklist of terms you should be familiar with.
 
@@ -90,7 +90,7 @@ However, for this lesson you only need to read the introduction from another ope
 
 git has _many_ commands - about 80 last I checked. In addition to the built-in ones you can create your own too. Some commands you will probably never use. E.g. try `git help bundle` and read up on how git works over "sneaker net".
 
-There are many "cheat sheets" to help you find the more popular git commands. Cheat sheets are nice to have when you're new, but also good to use as check lists when you are more experienced. 
+There are many "cheat sheets" to help you find the more popular git commands. Cheat sheets are nice to have when you're new, but also good to use as check lists when you are more experienced.
 
 I have included links to a few different ones below.
 

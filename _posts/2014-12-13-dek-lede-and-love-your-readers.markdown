@@ -5,7 +5,7 @@ dek:    "Usability tricks from the news business"
 lede:   "You can easily make your blog more usable with a couple of old-timer usability tricks. And doing so might give away that you care about your readers."
 date:   2014-12-13 12:30:00
 update: 2014-12-16 20:05:00
-categories: blogging usability 
+categories: blogging usability
 ---
 I just added _[dek][deck]_ and _[lede][lead]_ to my blog posts. 'Dek' (also spelled 'deck') is typically a phrase that appears close to the headline of a news story to help you decide whether this is something you should read or not. 'Lede' (or 'lead') is an introductory sentence or paragraph summarizing the story's essential content. These are two usability tricks from the news business you might consider for your blog.
 

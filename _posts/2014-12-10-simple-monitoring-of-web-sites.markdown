@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple monitoring of web sites"
-dek:    "Uptime monitoring using UptimeRobot – in under 60 mins" 
+dek:    "Uptime monitoring using UptimeRobot – in under 60 mins"
 lede:   "If you haven't got uptime monitoring on your site, there really is no excuse as you can set up something with minimal effort and free of charge."
 date:   2014-12-10 23:00:00
 categories: devops monitoring
@@ -29,7 +29,7 @@ It is worth noting that UptimeRobot's primary servers are in Dallas, TX, so for 
 
 UptimeRobot checks every 5 to 120 minutes (configurable).
 
-When a check causes a change in state from UP to DOWN (or DOWN to UP) you can ask UptimeRobot to notify you using a number of mechanisms: 
+When a check causes a change in state from UP to DOWN (or DOWN to UP) you can ask UptimeRobot to notify you using a number of mechanisms:
 
 * Free SMS (this is a somewhat limited offering)
 * Email
@@ -38,7 +38,7 @@ When a check causes a change in state from UP to DOWN (or DOWN to UP) you can as
 * Slack (notification to a user or channel)
 * HipChat (notification to a room)
 
-In addition they support three notification apps: 
+In addition they support three notification apps:
 
 * Pushbullet
 * Pushover
