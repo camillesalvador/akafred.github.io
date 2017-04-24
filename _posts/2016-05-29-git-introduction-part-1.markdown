@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Getting better at git (lessons 1-5)"
+title:  "Getting better at git - in 5 lessons"
 dek:    "Learning git using great stuff on the web"
 lede:   "Is git occasionally (or often) a mystery to you? - You are not alone! I have pulled in a few hand picked resources, in this post you get the first few bite-sized lessons."
 date:   2016-05-29 21:00:00
+update: 2017-04-24 21:05:00
 categories: git dvcs
 ---
-A client adopted git fairly recently and not everyone there knew distributed version control all that well. To bring them up to speed I created a set of small "lessons" pointing to good resources. After a few lessons I promise that you will have fewer git-induced headaches. 
+A former client adopted git recently and not everyone there knew distributed version control all that well. To bring them up to speed I created a set of small "lessons" pointing to good resources. After a few lessons I promise that you will have fewer git-induced headaches.
 
 Each lesson typically contains a link to a video, a blog post, or something similar. There will be content for all levels, both beginners and those more experienced. I even think the odd expert might find a tip or two.
 
