@@ -1,8 +1,13 @@
 <header class="site-header">
 
-  <div class="wrapper">
+<div class="container-fluid">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <div class="wrapper">
+    <div class="site-title">
+      <a class="site-initials" href="{{ site.baseurl }}/">{{ site.initials}}</a>
+      <hr class="header-separator"></hr>
+      <a class="site-phrase" href="{{ site.baseurl }}/">{{ site.phrase }}</a>
+  </div>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -23,5 +28,7 @@
     </nav>
 
   </div>
+
+</div>
 
 </header>
